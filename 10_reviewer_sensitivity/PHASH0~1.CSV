@@ -1,0 +1,3 @@
+role,image_id,split,file_name,batch,width,height,n_objects,small_objects,medium_objects,large_objects,sha256,phash
+validation,1173,val,batch_7/000000.JPG,batch_7,6000,4000,1,0,0,1,cec29aa8d2ef8d5e9579fe25d80c4b8fe8870f3de98f85fc0222fee675fbbbce,9e24385e4b6af233
+locked_test,1305,test,batch_8/000005.jpg,batch_8,6000,4000,2,0,1,1,2f31f42d01459e90afda9a13b660ec0831bcd814430bf9d2065199ba268e0c92,9e24385e4b6af233

@@ -1,0 +1,8 @@
+{
+  "max_abs_seed_delta_mAP50_95": 0.001163810111117436,
+  "max_abs_model_mean_delta_mAP50_95": 0.0010328370399843763,
+  "max_abs_seed_delta_F1": 0.0017456576765295662,
+  "max_abs_model_mean_delta_F1": 0.0005819425337034537,
+  "ranking_preserved": true,
+  "arbitrary_negligibility_threshold_used": false
+}

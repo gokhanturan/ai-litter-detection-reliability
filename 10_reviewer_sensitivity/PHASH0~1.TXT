@@ -1,0 +1,66 @@
+REVIEWER-REQUESTED pHash=0 CANDIDATE ANALYSIS
+
+Candidate
+=========
+Validation image ID : 1173
+Validation file     : batch_7/000000.JPG
+Validation batch    : batch_7
+Validation geometry : 6000 x 4000
+Validation objects  : 1
+Validation pHash    : 9e24385e4b6af233
+Validation SHA-256  : cec29aa8d2ef8d5e9579fe25d80c4b8fe8870f3de98f85fc0222fee675fbbbce
+
+Locked-test image ID: 1305
+Locked-test file    : batch_8/000005.jpg
+Locked-test batch   : batch_8
+Locked-test geometry: 6000 x 4000
+Locked-test objects : 2
+Locked-test pHash   : 9e24385e4b6af233
+Locked-test SHA-256 : 2f31f42d01459e90afda9a13b660ec0831bcd814430bf9d2065199ba268e0c92
+
+Hash interpretation
+===================
+pHash Hamming distance: 0
+SHA-256 identical     : False
+
+A pHash-distance-0 result indicates extremely similar
+perceptual hashes but does not by itself prove pixel identity.
+The SHA-256 values are different.
+
+The original frozen Stage 3B contact sheet is preserved as:
+/content/GDRIVE_REAL/MyDrive/Atik14082026/TACO_Pipeline_v5/10_reviewer_sensitivity/figures/Supplementary_pHash0_validation_test_candidate.png
+
+Sensitivity design
+==================
+The primary frozen results were NOT changed.
+
+For sensitivity analysis only, the locked-test-side image
+1305 was excluded.
+
+Original batch-disjoint test:
+200 images / 707 GT objects
+
+Sensitivity test:
+199 images / 705 GT objects
+
+Removed GT objects:
+2
+
+All COCO sensitivity results were recomputed from the already
+saved locked-test prediction JSON files.
+
+No model inference was rerun.
+No confidence threshold was changed.
+No model was retrained.
+No seed was replaced.
+No model was excluded.
+
+Important limitation
+====================
+This analysis quantifies the direct contribution of the
+test-side pHash=0 candidate under the ORIGINAL
+validation-selected thresholds.
+
+It does NOT estimate the counterfactual confidence threshold
+that might have been selected if the validation-side candidate
+had also been removed before threshold selection.
