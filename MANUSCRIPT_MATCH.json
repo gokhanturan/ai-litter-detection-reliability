@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-01",
+  "manuscript_title_tr": "Sürdürülebilir Atık Yönetiminde Yapay Zekâ Tabanlı Çöp Tespiti: Güvenilirlik ve Küçük Nesne Performansı",
+  "manuscript_title_en": "AI-Based Litter Detection in Sustainable Waste Management: Reliability and Small-Object Performance",
+  "supplementary_map_tests": "Ek Tablo S1",
+  "n_runs": 24,
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "final_training_details": "10_reviewer_sensitivity/Run_Training_Details_Final.csv",
+  "figure2_y_ranges": [
+    0.08,
+    0.12,
+    0.5
+  ],
+  "public_upload_status": "prepared_not_published_by_this_task",
+  "manuscript_sha256": "b68f38737e5a96c94289d8e99863230ce47764784be7e6090e6b261ecc03b12f"
+}
