@@ -1,0 +1,5 @@
+Model,Ön-eğitimli checkpoint,Parametre,GFLOPs @640,Ortalama best.pt [MiB]
+YOLOv8s,yolov8s.pt,"11,135,987",28.6,21.46
+YOLO11s,yolo11s.pt,"9,428,179",21.5,18.27
+YOLO26s,yolo26s.pt,"9,948,638",22.5,19.36
+RT-DETR-L,rtdetr-l.pt,"32,808,131",109.9,63.15

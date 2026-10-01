@@ -1,0 +1,13 @@
+Protokol,Model A,Model B,Ortalama fark (A−B),Ham p,Holm düzeltilmiş p
+Rastgele,YOLOv8s,YOLO11s,"−0,002595","0,75","1,00"
+Rastgele,YOLOv8s,YOLO26s,"−0,015549","0,25","1,00"
+Rastgele,YOLOv8s,RT-DETR-L,"−0,002630","1,00","1,00"
+Rastgele,YOLO11s,YOLO26s,"−0,012954","0,25","1,00"
+Rastgele,YOLO11s,RT-DETR-L,"−0,000034","1,00","1,00"
+Rastgele,YOLO26s,RT-DETR-L,"+0,012920","0,50","1,00"
+Batch-disjoint,YOLOv8s,YOLO11s,"−0,015145","0,25","1,00"
+Batch-disjoint,YOLOv8s,YOLO26s,"−0,027224","0,25","1,00"
+Batch-disjoint,YOLOv8s,RT-DETR-L,"−0,011551","0,50","1,00"
+Batch-disjoint,YOLO11s,YOLO26s,"−0,012079","0,50","1,00"
+Batch-disjoint,YOLO11s,RT-DETR-L,"+0,003595","0,75","1,00"
+Batch-disjoint,YOLO26s,RT-DETR-L,"+0,015674","0,25","1,00"

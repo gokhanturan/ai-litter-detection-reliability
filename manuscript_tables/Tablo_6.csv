@@ -1,0 +1,10 @@
+Protokol,Öğe,Dondurulmuş tanım
+Rastgele,Tohum,20260814
+Rastgele,Aşama 1,%70 eğitim / %30 geçici; train_test_split; n_objects sekiz ile sınırlandırılarak tabakalandırma; <4 gözlemli tabakalar 'rare' olarak birleştirildi
+Rastgele,Aşama 2,Geçici alt küme %50/%50 doğrulama/test olarak bölündü; aynı tohum; benzer tabakalandırma; <2 gözlemli tabakalar 'rare' olarak birleştirildi; yedekleme kullanılmadı
+Batch-disjoint,Gruplama birimi,15 resmî TACO batch'i
+Batch-disjoint,Aday atamalar,100.000; numpy.random.default_rng tohumu 20260814
+Batch-disjoint,Hedefler,"Eğitim/doğrulama/test için 0,70 / 0,15 / 0,15"
+Batch-disjoint,Amaç fonksiyonu,"Görüntü, nesne, küçük, orta ve büyük sayılarına ait normalize sapmalar; görüntü sayısı ağırlığı 3, diğer tüm ağırlıklar 1; boş bölüm reddedildi"
+Batch-disjoint,Seçilen doğrulama,"batch_5, batch_7"
+Batch-disjoint,Seçilen kilitli test,"batch_13, batch_8"

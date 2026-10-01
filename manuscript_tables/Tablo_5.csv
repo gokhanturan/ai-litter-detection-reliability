@@ -1,0 +1,9 @@
+Protokol,Model,Tamamlanan epoch (42/123/2026),100'den önce duran koşu
+Rastgele,YOLOv8s,95 / 95 / 100,2/3
+Rastgele,YOLO11s,94 / 100 / 95,2/3
+Rastgele,YOLO26s,94 / 73 / 100,2/3
+Rastgele,RT-DETR-L,93 / 21 / 91,3/3
+Batch-disjoint,YOLOv8s,54 / 64 / 72,3/3
+Batch-disjoint,YOLO11s,81 / 77 / 81,3/3
+Batch-disjoint,YOLO26s,78 / 100 / 100,1/3
+Batch-disjoint,RT-DETR-L,53 / 21 / 21,3/3
