@@ -1,0 +1,7 @@
+protocol,split,images,objects,small,medium,large,batches
+random,train,1050,3284,242,845,2197,15
+random,val,225,674,60,160,454,15
+random,test,225,826,81,301,444,15
+batch_disjoint,train,1061,3369,269,909,2191,11
+batch_disjoint,val,239,708,54,186,468,2
+batch_disjoint,test,200,707,60,211,436,2

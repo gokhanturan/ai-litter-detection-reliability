@@ -1,0 +1,24 @@
+{
+  "split_seed": 20260814,
+  "task": "TACO-1 one-class litter detection",
+  "protocols": {
+    "random": {
+      "split_json_sha256": "7652bd902d619a9b8fa25c13c58be685c35aba7ffc0842f5c71ced29d3f89ad6",
+      "train_txt_sha256": "2dd971f817fe6b4f8c57f80104f991b50900c822aafb97039884d0006ae0ead0",
+      "val_txt_sha256": "b26a71748ca428fa4c20e3000e1e05c0c95cefd2df358aba0cc3b62ca3327ce7",
+      "test_txt_sha256": "297157f03ff13dfa615cda0e7aa9afbf9031370cf5bbb8198a0dfcee370f5e56",
+      "train_gt_sha256": "469349bc72dec313ead7d675643893838dba942e539b677965872f84d39f38a8",
+      "val_gt_sha256": "7c8075c77308e2891f37bf28cc96baccdca996db80881e4d1c187ff417655e53",
+      "test_gt_sha256": "d36ff63e9cf50fede98e111df156b5913a0af89f10d0cf4ad7577e021ca9b924"
+    },
+    "batch_disjoint": {
+      "split_json_sha256": "da7cb7d1b86efcfce2b3f48bf784e54e9efb5d698552565233fd22748a4e4536",
+      "train_txt_sha256": "80b8d4ccc1845f54f05997c087b3ac0f5381e0e9cf5de51354ac64bcd58fed68",
+      "val_txt_sha256": "a2f8993ee3a7c6a5b572f8a6fe34862d51a160cbb0761ccd92e421ba43e52ff2",
+      "test_txt_sha256": "ce8e88df0d876c16cb802286687859b0615aba1451406b4bfa74bd5afa5d3b0e",
+      "train_gt_sha256": "b3f9149c061362948e91c3f57c8f55ebf128b246526df5340f48800e245edeb1",
+      "val_gt_sha256": "9cf36b0382d873db13d6a269e65000f1ae34b333447de500128db9224972bc77",
+      "test_gt_sha256": "6d997ac17c94acaccb1fc8d516918398eb4fb1b48eff6653d60cef3b30f93df6"
+    }
+  }
+}
